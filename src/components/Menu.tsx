@@ -120,12 +120,12 @@ const menuItems = [
 const Menu = () => {
   return (
     <div className="mt-4 text-sm">
-      {menuItems.map((i) => (
-        <div className="flex flex-col gap-2" key={i.title}>
+      {menuItems.map((group) => (
+        <div className="flex flex-col gap-2" key={group.title}>
           <span className="hidden lg:block text-gray-400 font-light my-4">
-            {i.title}
+            {group.title}
           </span>
-          {i.items.map((item) => {
+          {group.items.map((item) => {
             if (item.visible.includes(role)) {
               return (
                 <Link
