@@ -19,8 +19,8 @@ const BigCalendar = () => {
     <Calendar
       localizer={localizer}
       events={calendarEvents}
-      startAccessor="start"
-      endAccessor="end"
+      // startAccessor="start"
+      // endAccessor="end"
       views={["work_week", "day"]}
       view={view}
       style={{ height: "98%" }}
