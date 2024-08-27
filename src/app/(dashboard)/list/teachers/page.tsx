@@ -1,3 +1,4 @@
+import Pagination from "@/components/Pagination";
 import TableSearch from "@/components/TableSearch";
 import Image from "next/image";
 
@@ -28,7 +29,7 @@ export default function TeacherListPage() {
         {/* LIST */}
         {/* <Table columns={columns} renderRow={renderRow} data={teachersData} /> */}
         {/* PAGINATION */}
-        {/* <Pagination /> */}
+        <Pagination />
       </div>
     );
   }
