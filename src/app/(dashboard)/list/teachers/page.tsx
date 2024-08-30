@@ -1,6 +1,6 @@
 // import FormModal from "@/components/FormModal";
 import Pagination from "@/components/Pagination";
-// import Table from "@/components/Table";
+import Table from "@/components/Table";
 import TableSearch from "@/components/TableSearch";
 import { role, teachersData } from "@/lib/data";
 import Image from "next/image";
@@ -121,7 +121,7 @@ export default function TeacherListPage() {
           </div>
         </div>
         {/* LIST */}
-        {/* <Table columns={columns} renderRow={renderRow} data={teachersData} /> */}
+        <Table columns={columns} renderRow={renderRow} data={teachersData} />
         {/* PAGINATION */}
         <Pagination />
       </div>
