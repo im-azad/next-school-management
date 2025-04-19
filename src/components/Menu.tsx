@@ -110,7 +110,7 @@ const menuItems = [
       {
         icon: "/logout.png",
         label: "Sing Out",
-        href: "/sing-out",
+        href: "/",
         visible: ["admin", "teacher", "student", "parent"],
       },
     ],
